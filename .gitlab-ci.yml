@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp README.md .public/index.html
+  artifacts:
+    paths:
+      - .public
+  only:
+    - main  # oder der Branch, den du verwenden möchtest
