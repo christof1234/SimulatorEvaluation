@@ -1,4 +1,4 @@
-# SimulatorEvaluation
+# Evaluation
 
 | Class  | Model       | Size [k] | Ratio [%]   | Ground <br> Truth  <br> Sampling | Random <br> World  <br> Scaling | World <br> Flip | Random <br> Local  <br> Noise | Random <br> Local  <br> Dropout | Random <br> Local  <br> Outlier | Full <br> Augmentation |
 |--------|-------------|----------|-------------|----------------------------------|---------------------------------|-----------------|-------------------------------|---------------------------------|---------------------------------|------------------------|
